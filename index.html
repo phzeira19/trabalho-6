@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function displayNome() {
+            return document.getElementById('display')
+                .innerHTML = "Filipe";
+        }
+
+        function displayMuda() {
+            document.getElementById("hello").style.fontSize = "35px"
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="displayNome ()">MEU NOME É:</button>
+    <p id="display"></p>
+
+
+    <p id="hello" style="font-size: 10px;">Hello World</p>
+</body>
+
+</html>
